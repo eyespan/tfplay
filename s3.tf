@@ -31,5 +31,5 @@ provider "aws" {
 ################################################################################
 
 resource "aws_s3_bucket" "this" {
-  bucket_prefix = "tf-play-bucket"
+  bucket_prefix = "tf-play-bucket-1"
 }
